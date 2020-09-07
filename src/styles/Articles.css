@@ -1,0 +1,44 @@
+
+.card {
+    width: 32rem;
+    margin-top: 3rem;
+    background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+    margin-left: 3rem;
+
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+    cursor: pointer;
+}
+
+.card-body{
+    padding: 3rem 0 !important;
+}
+
+.card-text{
+    font-size: 1rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+    padding-top: 2em;
+}
+
+#header{
+    display: block;
+    margin-top: 3em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+#header>h2{
+    font-size: 50px;
+}
+
+#sub-desc{
+    display: flex;
+    
+}
