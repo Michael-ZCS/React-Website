@@ -36,7 +36,7 @@ render(){
                                 <h5 class="sub-title">Source {data.source.name}</h5>
                                 <h6>Published at {data.publishedAt}</h6>
                                 <hr></hr>
-                                <img class="img-fluid rounded" src={data.urlToImage} alt="No Image Available"/>
+                                <img class="img-fluid rounded" src={data.urlToImage} alt="Not Available"/>
                                 <hr></hr>
                                 <p class="lead">{data.description}</p>
 

@@ -33,7 +33,7 @@ class Everything extends Component {
                     <div className="col-md-4">
                     <div className="card text-center">
                         <div className="overflow">
-                            <img src = {article.urlToImage} className="card-img-top" alt="No Image Available"/>
+                            <img src = {article.urlToImage} className="card-img-top" alt="Not Available"/>
                         </div>
                         <div className="card-body text-dark">
                             <h5 className="card-title">{article.title}</h5>
