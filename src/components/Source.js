@@ -28,7 +28,7 @@ class Source extends Component {
             <div id="header"><h2>Source</h2></div>
         <div className="container-fluid d-flex justify-content-center">
             <div className="row">
-                {this.state.articles.map((article,index) => (
+                {this.state.articles && this.state.articles.map((article,index) => (
                     <div className="col-md-4" onClick={function(){window.open(article.url)}}>
                     <div className="card text-center">
                         <div className="card-body text-dark">

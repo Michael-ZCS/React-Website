@@ -29,7 +29,7 @@ class Everything extends Component {
             <div id="header"><h2>Everything</h2></div>
         <div className="container-fluid d-flex justify-content-center">
             <div className="row">
-                {this.state.articles.map((article,index) => (
+                {this.state.articles && this.state.articles.map((article,index) => (
                     <div className="col-md-4">
                     <div className="card text-center">
                         <div className="overflow">
