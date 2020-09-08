@@ -33,7 +33,7 @@ class App extends Component {
           </div>
         </div>
 
-        <Redirect from="/" to="/top-headlines" />
+        
         <Switch>
           <Route exact path="/">
             <Redirect to="/top-headlines" />
