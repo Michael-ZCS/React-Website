@@ -6,7 +6,7 @@ class Headlines extends Component {
     constructor(props){
       super(props);
       this.state = {
-        articles: []
+        articles: [],
       }
     }
   

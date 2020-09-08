@@ -7,7 +7,6 @@ class HeadlineArticle extends Component {
         super(props);
         this.state = {
           articles: [],
-          title: this.props.location.state.data
         }
       }
 
@@ -17,7 +16,8 @@ class HeadlineArticle extends Component {
         .then(
         (result) => {
             this.setState({
-            articles: result.articles
+            articles: result.articles,
+            title: this.props.location.state.data
             });
         }
         )
