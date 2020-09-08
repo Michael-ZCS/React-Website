@@ -29,7 +29,7 @@ class Headlines extends Component {
             <div id="header"><h2>Top Headlines</h2></div>
         <div className="container-fluid d-flex justify-content-center">
             <div className="row">
-                {this.state.articles.map(article => (
+                {/* {this.state.articles.map(article => (
                     <div className="col-md-4">
                     <div className="card text-center">
                         <div className="overflow">
@@ -42,7 +42,7 @@ class Headlines extends Component {
                         </div>    
                     </div>
                     </div>
-                ))}
+                ))} */}
             </div>
         </div>
         </div>
