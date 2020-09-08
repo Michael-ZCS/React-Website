@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Articles.css';
-import {Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Everything extends Component {
     constructor(props){

@@ -35,7 +35,7 @@ class App extends Component {
 
         
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/React-Website">
             <Redirect to="/top-headlines" />
           </Route>
           <Route path="/top-headlines">
